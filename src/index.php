@@ -90,24 +90,36 @@
 	</div>
 </div>
 		
-		<div  style="margin-top:30px;text-align:center;">
+		<div  style="margin-top:30px;">
 			<div class="wrapper" style="overflow:hidden;background-color: #fff;box-shadow: 0px 2px 3px -1px rgba(151, 171, 187, 0.7); ">
-				<section class="col-xs-12 col-sm-3 textos_presentacion">
-					
+				<section class="col-xs-12 col-sm-4 textos_presentacion">
+					<div class="col-xs-12 col-sm-2">
+					<img src="img/icono_especialista.png" />
+					</div>
+					<div class="col-xs-10 col-sm-10">
 					<div>Miles de especialistas</div>
-					<span>Mas de 800 especilistas<br/> a tu disposicion. </span>
+					<span>Mas de 800 especilistas a tu disposicion. </span>
+					</div>
 				</section>
 		
-				<section class="col-xs-12 col-sm-5 textos_presentacion">
-					
+				<section class="col-xs-12 col-sm-4 textos_presentacion">
+					<div class="col-xs-12 col-sm-2">
+					<img src="img/icono_publicacion.png" />
+					</div>
+					<div class="col-xs-10 col-sm-10">
 					<div>Crea tu propia publicacion</div>
-					<span>Si no encontras el especialista que necesitas<br/> crea, tu publicacion y que ellos te busquen a vos.</span>
+					<span>Si no encontras el especialista que necesitas crea</span>
+					</div>
 				</section>
 		
-				<section class="col-xs-12 col-sm-3 textos_presentacion">
-					
+				<section class="col-xs-12 col-sm-4 textos_presentacion">
+					<div class="col-xs-12 col-sm-2">
+					<img src="img/icono_herramientas.png" />
+					</div>
+					<div class="col-xs-10 col-sm-10">
 					<div>Convertite en prestador</div>
 					<span>Postulate en trabajos y mejora tu reputacion. </span>
+					</div>
 				</section>
 	</div>
 </div>
