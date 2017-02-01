@@ -794,11 +794,16 @@ cursor: default;}
 #main.publicacion input,
 #main.publicacion textarea,
 .segundo_paso input,
-.segundo_paso textarea {
-  background-color: white;
-  height:40px;
-  border-radius:1px;
-  width: 100%; }
+.segundo_paso textarea ,
+.tercer_paso select,
+.tercer_paso input{
+	background-color: white;
+	height:40px;
+	border-radius:1px;
+	width: 100%; 
+	margin-top:0px !Important;
+	border: 1px solid #ededed;
+  }
 
 
 #main.publicacion .presupuesto > div {
@@ -1017,6 +1022,24 @@ cursor: default;}
     display: block;
     margin: 0 auto; }
 
+.segundo_paso, .tercer_paso{
+	display:none;
+	background-color:white;
+	padding:20px;
+}
+
+.segundo_paso label, .tercer_paso label{
+	margin-top:15px;
+	}
+
+.segundo_paso textarea{
+	height:100px;
+	border: 1px solid #ededed;
+	}
+	
+.tercer_paso img{width:100%;}	
+	
+.contenedor_mapa{margin-top:30px; margin-bottom:30px;}	
 /* MIS PUBLICACIONES
 ********************/
 .mis-publicaciones{
@@ -1248,9 +1271,9 @@ height:120px !important;}
 
 	
 /*********** CREAR PUBLICACION ***********/
-.container-fluid_publicacion{width:70%; text-align:center;}
+.container-fluid_publicacion{width:70%;}
 
-.lala{
+.contenedor_categoria_crear{
 border:1px solid #dedede;
 background-color:white;
 width:100%;
@@ -1290,6 +1313,7 @@ margin: 0 auto;
 .titulos_pasos{
 	font-size:18px;
 	margin-bottom:20px;
+	text-align:center;
 }
 
 .progressbar {
@@ -1315,6 +1339,8 @@ margin: 0 auto;
       content: counter(step);
       counter-increment: step;
       line-height: 30px;
+	  line-height: 25px;
+	  font-size: 14px;
       border: 2px solid #7d7d7d;
       display: block;
       text-align: center;
@@ -1336,17 +1362,21 @@ margin: 0 auto;
       content: none;
   }
   .progressbar li.active {
-      color: green;
+      color: green;	 
   }
   .progressbar li.active:before {
-      border-color: #55b776;
+		border-color: #55b776;
+		background-color:#55b776;
+		color:white;
   }
   .progressbar li.active + li:after {
       background-color: #55b776;
   }
-  
- .segundo_paso{text-align:left;} 
-  .segundo_paso input{margin-top:0px !Important; border: 1px solid #ededed;} 
+  .progressbar li.active  span{
+      color: #55b776;
+  }
+
+
 /************************************
 	LAYOUT MOBILE
 *************************************/

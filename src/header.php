@@ -61,7 +61,7 @@
 				<i class="fa fa-home" aria-hidden="true"></i>
 				HOME
 			</a>
-			<a class="link_header" href="mis-publicaciones.php">
+			<a class="link_header" href="crear-publicacion.php">
 				<i class="fa fa-briefcase" aria-hidden="true"></i>
 				Crear Publicacion
 			</a>
@@ -83,7 +83,7 @@
 				<i class="fa fa-home" aria-hidden="true"></i>
 				HOME
 			</a>
-			<a href="mis-publicaciones.php" class="link_header">
+			<a data-toggle="modal" data-target="#modal_login" class="link_header">
 				<i class="fa fa-briefcase" aria-hidden="true"></i>
 				CREAR PUBLICACION
 			</a>

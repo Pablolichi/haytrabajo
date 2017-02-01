@@ -55,3 +55,21 @@ $(document).ready(function() {
 		});
 	});
 });
+
+
+/*** OCULTO LOS PASOS DE CREAR PUBLICACION****/
+
+$( "#btn_siguiente_crear_1" ).click(function() {
+  $( ".primer_paso").fadeOut("fast");
+  $( ".segundo_paso").fadeIn("slow");
+  $( ".step_2").addClass("active");
+});
+
+$( "#btn_siguiente_publicacion_2" ).click(function() {
+  $( ".segundo_paso").fadeOut("fast");
+  $( ".tercer_paso").fadeIn("slow");
+  $( ".step_3").addClass("active");
+});
+
+
+
