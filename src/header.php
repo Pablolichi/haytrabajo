@@ -16,7 +16,7 @@
 				if(!empty($_SESSION['user'])) :
 				?>
 				<div class="notificaciones_header" style="display:inline; font-size:15px; margin-right:10px;">
-				<i class="fa fa-bullhorn" aria-hidden="true"></i>
+				<i class="fa fa-bell" aria-hidden="true"></i>
 				</div>
 				
 				<div class="dropdown">
@@ -32,8 +32,11 @@
 				</ul>
 				</div>
 				<?php else : ?>
-				<i class="fa fa-user" aria-hidden="true"></i> 
-				<a data-toggle="modal" data-target="#modal_login">Login/Registrarse</a>
+				 
+				<a data-toggle="modal" data-target="#modal_login" class="">
+					<i class="fa fa-sign-in" aria-hidden="true"></i> Login
+				</a> | 
+				<i class="fa fa-user" aria-hidden="true"></i> Registrarse
 				<?php endif; ?>
 				</div>
 				
@@ -62,16 +65,16 @@
 				HOME
 			</a>
 			<a class="link_header" href="crear-publicacion.php">
-				<i class="fa fa-briefcase" aria-hidden="true"></i>
+				 
 				Crear Publicacion
 			</a>
 			<a class="link_header" href="mis-publicaciones.php">
-				<i class="fa fa-user" aria-hidden="true"></i>
+				 
 				Perfil
 			</a>
 			<a class="link_header" href="contacto.php">
-				<i class="fa fa-envelope-o" aria-hidden="true"></i>
-					Contacto
+				 
+					AYUDA Y CONTACTO
 			</a>
 			</div>	 
 			
@@ -81,16 +84,29 @@
 			<div class="col-md-9 menu_header">
 			<a href="index.php" class="link_header"> 
 				<i class="fa fa-home" aria-hidden="true"></i>
-				HOME
+				Home
 			</a>
-			<a data-toggle="modal" data-target="#modal_login" class="link_header">
-				<i class="fa fa-briefcase" aria-hidden="true"></i>
-				CREAR PUBLICACION
+			
+			<a href="listado-prestadores.php" class="link_header">
+				PRESTADORES
 			</a>
+			
 			<a href="contacto.php" class="link_header">
-				<i class="fa fa-envelope-o" aria-hidden="true"></i>
+				
+				AYUDA
+			</a>
+			
+			<a href="contacto.php" class="link_header">
+				
 				CONTACTO
 			</a>
+			
+			<a data-toggle="modal" data-target="#modal_login" class="btn_crear_publicacion">
+				
+				Crear publicacion
+			</a>
+			
+			
 				<!--<a href="registro.php" class="btn_convertise_header" style="border:1px solid #aaaaaa; border-radius:2px;">Convertirse en prestador</a>
 				<a data-toggle="modal" data-target="#modal_login">Login</a>
 				<a  data-toggle="modal" data-target="#modal_registrarse">Registrarse</a>-->

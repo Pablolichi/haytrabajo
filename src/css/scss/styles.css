@@ -263,8 +263,14 @@ header .dropdown .dropdown-menu a {
 	font-size: 13px;
 	border-bottom: 4px solid #556479;
 	color:white;
-	padding:5px;
-	padding-bottom:0px;}
+	padding:10px;}
+	
+.barra_superior_header a{
+	cursor:pointer;}	
+	
+.barra_superior_header a:hover{
+	color:white !Important;
+	text-decoration:none;}	
 	
 .img_usuario_barra_header{
 	width:24px; 
@@ -304,6 +310,29 @@ padding-right:0px;}
 }
 
 .buscador_header{border-top: 1px dashed #ededed;}
+
+.btn_crear_publicacion{
+	border: 1px solid;
+    padding: 6px 15px 6px 15px;
+	text-decoration:none;
+	cursor:pointer;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 2px 0px 2px 15px;
+    text-decoration: none;
+	background-color: #5677fc;
+    border-color: #536fe2;
+    color: white;
+    text-shadow: none;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    line-height: 22px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);}
+	
+.btn_crear_publicacion:hover{
+	text-decoration:none;
+}	
 
 /* FOOTER 
 ********************/
@@ -394,10 +423,11 @@ border: 1px solid #c9ced0;
 .categorias_destacadas{
 	background-color: #fff;
 	box-shadow: 0px 2px 3px -1px rgba(151, 171, 187, 0.7);
-	max-width:426px; 
-	margin-left:25px;
+	max-width:365px; 
+	margin-right:32px;
 	margin-bottom:25px;
 }
+
 
 .provincias_ocultas, .mostrar_menos{display:none;}
 
@@ -406,9 +436,31 @@ border: 1px solid #c9ced0;
 }
 
 .txt_destacadas{
-	padding:15px;
+	padding:10px;
+	text-align: center;
+    display: inline-block;
+    width: 118px;
 }
 
+.txt_destacadas_medio{
+	border-right: 1px solid #dededd;
+    border-left: 1px solid #dededd;
+}
+
+.titulo_categoria_home{
+	position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+	font-size:15px;
+    padding: 30px 15px 10px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 0, rgba(34, 34, 44, 0) 100%);
+    color: #fff;font-weight:bold;
+}
+
+.txt_destacadas strong{
+	font-size:16px;}
+	
 .txt_destacadas div{
 	font-weight:bold;
 	display:block;
@@ -475,7 +527,6 @@ border: 1px solid #c9ced0;
 .buscar-especialista{
 background-color: #fff;
 box-shadow: 0px 2px 3px -1px rgba(151, 171, 187, 0.7);
-width:290px;
 padding: 0px 30px 0px 30px;}
 
 
@@ -707,7 +758,7 @@ border:1px solid #d3d3d3
 
 
 
-.listado-publicaciones{margin-left:40px;}
+.listado-publicaciones{padding-right:60px;}
 
 .txt_prestador_perfiles{
 margin-top:25px;

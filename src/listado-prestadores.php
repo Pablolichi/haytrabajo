@@ -23,7 +23,7 @@
 				<div class="row">
 					
 					
-					<section class="col-xs-8  listado-publicaciones">
+					<section class="col-xs-12 col-sm-9  listado-publicaciones">
 						<div class="row">
 						<div style="border-top:1px solid #e6e6e6">
 							<div class="titulo_seccion">
@@ -175,7 +175,7 @@
 						
 
 					</section>
-					<section class="col-xs-4  buscar-especialista" style="float:right">
+					<section class="col-xs-12 col-sm-3  buscar-especialista">
 							
 							<div class="row">
 								<div class="div_buscar_por">

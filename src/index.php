@@ -172,9 +172,123 @@
 				
 				
 					<div class="row">
-					<section class="col-xs-12 col-sm-12 " style="text-align:center; font-weight:bold;margin-bottom:30px; font-size:25px; color:#212121">
-					TRABAJOS MAS BUSCADOS
-					</section>
+				
+						
+						<section class="col-xs-12 col-sm-9">
+						<div style="border-top:1px solid #e6e6e6;width:97%;">
+									<div class="titulo_seccion">
+										TRABAJOS MAS BUSCADOS
+									</div>
+								</div>
+						<section class="col-xs-12 col-sm-6 categorias_destacadas">
+							<div class="row">
+							<div>
+								<img src="img/pub1.jpg" />
+								<div class="titulo_categoria_home">Electricista</div>
+							</div>	
+								<div class="txt_destacadas" style="text-align:center; display:inline-block;">
+									<span><strong>380</strong><br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas txt_destacadas_medio" style="text-align:center;  display:inline-block;">
+									<span><strong>380</strong><br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas" style="text-align:center;  display:inline-block;">
+									<span><strong>380</strong><br/> especialistas</span>
+								</div>
+							</div>
+						</section>
+						
+						<section class="col-xs-12 col-sm-6 categorias_destacadas">
+							<div class="row">
+							<div>
+								<img src="img/pub2.jpg" />
+								<div class="titulo_categoria_home">Pintor</div>
+							</div>	
+								<div class="txt_destacadas" style="text-align:center; display:inline-block;">
+									<span><strong>579</strong><br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas txt_destacadas_medio" style="text-align:center;  display:inline-block;">
+									<span>380<br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas" style="text-align:center;  display:inline-block;">
+									<span>380<br/> especialistas</span>
+								</div>
+							</div>
+						</section>
+						
+						<section class="col-xs-12 col-sm-6 categorias_destacadas">
+							<div class="row">
+							<div>
+								<img src="img/pub3.jpg" />
+								<div class="titulo_categoria_home">Plomeria</div>
+							</div>	
+								<div class="txt_destacadas" style="text-align:center; display:inline-block;">
+									<span>300<br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas txt_destacadas_medio" style="text-align:center;  display:inline-block;">
+									<span>380<br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas" style="text-align:center;  display:inline-block;">
+									<span>380<br/> especialistas</span>
+								</div>
+							</div>
+						</section>
+						
+						<section class="col-xs-12 col-sm-6 categorias_destacadas">
+							<div class="row">
+							<div>
+								<img src="img/pub4.jpg" />
+								<div class="titulo_categoria_home">Mecanico</div>
+							</div>	
+								<div class="txt_destacadas" style="text-align:center; display:inline-block;">
+									<span>489<br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas txt_destacadas_medio" style="text-align:center;  display:inline-block;">
+									<span>380<br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas" style="text-align:center;  display:inline-block;">
+									<span>380<br/> especialistas</span>
+								</div>
+							</div>
+						</section>
+						
+						<section class="col-xs-12 col-sm-6 categorias_destacadas">
+							<div class="row">
+							<div>
+								<img src="img/pub5.jpg" />
+								<div class="titulo_categoria_home">Climatizacion</div>
+							</div>	
+								<div class="txt_destacadas" style="text-align:center; display:inline-block;">
+									<span><strong>379</strong><br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas txt_destacadas_medio" style="text-align:center;  display:inline-block;">
+									<span>380<br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas" style="text-align:center;  display:inline-block;">
+									<span>380<br/> especialistas</span>
+								</div>
+							</div>
+						</section>
+						
+						<section class="col-xs-12 col-sm-6 categorias_destacadas">
+							<div class="row">
+							<div>
+								<img src="img/pub6.jpg" />
+								<div class="titulo_categoria_home">Electricista</div>
+							</div>	
+								<div class="txt_destacadas" style="text-align:center; display:inline-block;">
+									<span><strong>279</strong><br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas txt_destacadas_medio" style="text-align:center;  display:inline-block;">
+									<span>380<br/> especialistas</span>
+								</div>
+								<div class="txt_destacadas" style="text-align:center;  display:inline-block;">
+									<span>380<br/> especialistas</span>
+								</div>
+							</div>
+						</section>
+						</section>
+						
 						<section class="col-xs-12 col-sm-3 buscar-especialista">
 							
 							<div class="row">
@@ -241,23 +355,17 @@
 									<a href="">Buenos Aires</a>
 									<a href="">Cordoba</a>
 									<a href="">Entre Rios</a>
-								</div>
-								<div>
 									<a href="">Mendoza</a>
 									<a href="">Tucuman</a>
 									<a href="">Tierra del fuego</a>
-								</div>
-								<div class="provincias_ocultas">
 									<a href="">Jujuy</a>
 									<a href="">San Juan</a>
-									<a href="">San Luis</a>
 								</div>
 								<div class="provincias_ocultas">
+									<a href="">San Luis</a>
 									<a href="">Rio Negro</a>
 									<a href="">Chubut</a>
 									<a href="">Santa Cruz</a>
-								</div>
-								<div class="provincias_ocultas">
 									<a href="">Catamarca</a>
 									<a href="">Salta</a>
 									<a href="">Chaco</a>
@@ -268,66 +376,6 @@
 								</div>
 							</div>
 							
-						</section>
-						
-						<section class="col-xs-12 col-sm-4 categorias_destacadas">
-							<div class="row">
-								<img src="img/pub1.jpg" />
-								<div class="txt_destacadas">
-									<div>Electricista</div>
-									<span>380 especialistas</span>
-								</div>
-							</div>
-						</section>
-						
-						<section class="col-xs-12 col-sm-4 categorias_destacadas">
-							<div class="row">
-								<img src="img/pub2.jpg" />
-								<div class="txt_destacadas">
-									<div>Pintor</div>
-									<span>579 especialistas</span>
-								</div>
-							</div>
-						</section>
-						
-						<section class="col-xs-12 col-sm-4 categorias_destacadas">
-							<div class="row">
-								<img src="img/pub3.jpg" />
-								<div class="txt_destacadas">
-									<div>Plomeria</div>
-									<span>300 especialistas</span>
-								</div>
-							</div>
-						</section>
-						
-						<section class="col-xs-12 col-sm-4 categorias_destacadas">
-							<div class="row">
-								<img src="img/pub4.jpg" />
-								<div class="txt_destacadas">
-									<div>Mecanico</div>
-									<span>489 especialistas</span>
-								</div>
-							</div>
-						</section>
-						
-						<section class="col-xs-12 col-sm-4 categorias_destacadas">
-							<div class="row">
-								<img src="img/pub5.jpg" />
-								<div class="txt_destacadas">
-									<div>Climatizaci&oacute;n</div>
-									<span>307 especialistas</span>
-								</div>
-							</div>
-						</section>
-						
-						<section class="col-xs-12 col-sm-4 categorias_destacadas">
-							<div class="row">
-								<img src="img/pub6.jpg" />
-								<div class="txt_destacadas">
-									<div>Electricista</div>
-									<span>Electricista</span>
-								</div>
-							</div>
 						</section>
 					
 				
