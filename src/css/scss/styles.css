@@ -437,9 +437,7 @@ border: 1px solid #c9ced0;
 
 .txt_destacadas{
 	padding:10px;
-	text-align: center;
     display: inline-block;
-    width: 118px;
 }
 
 .txt_destacadas_medio{
@@ -780,7 +778,7 @@ margin-top:25px;
 	background-color: #fff;
 	box-shadow: 0px 1px 10px -1px rgba(151, 171, 187, 0.7);
 	border-bottom: 1px solid #c8c8c8;
-	margin-bottom: 30px;
+	margin-bottom: 35px;
 	padding:0px;
 	-webkit-transition: background-color 200ms ease-in;
 	-moz-transition: background-color 200ms ease-in;
@@ -1232,8 +1230,12 @@ cursor: default;}
 .div_img_listado{padding:0px;}
 .div_img_listado img{
 	width: 370px;
-    height: 250px;}
-    
+    height: 210px;}
+
+.cuerpo_listado_prestadores{
+	margin-top:15px; 
+	height:145px;
+}    
   
 /* MODALES
 ********************/ 
@@ -1427,7 +1429,11 @@ margin: 0 auto;
       color: #55b776;
   }
 
-
+.consulta_pregunta div:first-child{
+	font-size:16px;
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:10px;}
 /************************************
 	LAYOUT MOBILE
 *************************************/

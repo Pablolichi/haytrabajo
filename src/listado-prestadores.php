@@ -37,7 +37,7 @@
 									<img src="img/prestadores/prestador.jpg" alt="">
 								</div>
 								
-								<div class="col-xs-7" style="margin-top:15px; height:185px;">
+								<div class="col-xs-7 cuerpo_listado_prestadores">
 									<h2>Juan Ignacio Costela</h2>
 										<i class="fa fa-star" aria-hidden="true"></i>
 										<i class="fa fa-star" aria-hidden="true"></i>
@@ -65,7 +65,7 @@
 									<img src="img/prestadores/prestador2.jpg" alt="">
 								</div>
 								
-								<div class="col-xs-7" style="margin-top:15px; height:185px;">
+								<div class="col-xs-7 cuerpo_listado_prestadores">
 									<h2>Juan Ignacio Costela</h2>
 										<i class="fa fa-star" aria-hidden="true"></i>
 										<i class="fa fa-star" aria-hidden="true"></i>
@@ -93,7 +93,7 @@
 									<img src="img/prestadores/prestador3.jpg" alt="">
 								</div>
 								
-								<div class="col-xs-7" style="margin-top:15px; height:185px;">
+								<div class="col-xs-7 cuerpo_listado_prestadores">
 									<h2>Juan Ignacio Costela</h2>
 										<i class="fa fa-star" aria-hidden="true"></i>
 										<i class="fa fa-star" aria-hidden="true"></i>
@@ -121,7 +121,7 @@
 									<img src="img/prestadores/prestador4.jpg" alt="">
 								</div>
 								
-								<div class="col-xs-7" style="margin-top:15px; height:185px;">
+								<div class="col-xs-7 cuerpo_listado_prestadores">
 									<h2>Juan Ignacio Costela</h2>
 										<i class="fa fa-star" aria-hidden="true"></i>
 										<i class="fa fa-star" aria-hidden="true"></i>

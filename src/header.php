@@ -72,9 +72,11 @@
 				 
 				Perfil
 			</a>
+			<a class="link_header" href="ayuda.php">
+				AYUDA 
+			</a>
 			<a class="link_header" href="contacto.php">
-				 
-					AYUDA Y CONTACTO
+				CONTACTO
 			</a>
 			</div>	 
 			
