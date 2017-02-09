@@ -182,63 +182,83 @@
 								</div>
 						<section class="col-xs-12 col-sm-6 categorias_destacadas">
 							<div class="row">
+								<div class="titulo_categoria_destacadas">
+									<i class="fa fa-bolt" aria-hidden="true"></i>
+									Electricista
+								</div>
 								<img src="img/pub1.jpg" />
 								<div class="txt_destacadas">
-									<div>Electricista</div>
-									<span>380 especialistas</span>
+									<div>380</div> <span>especialistas</span>
 								</div>
 							</div>
 						</section>
 						
 						<section class="col-xs-12 col-sm-6 categorias_destacadas">
 							<div class="row">
+								<div class="titulo_categoria_destacadas">
+									<i class="fa fa-code" aria-hidden="true"></i>
+									Desarrollador Web
+								</div>
+								<img src="img/pub7.jpg" />
+								<div class="txt_destacadas">
+									<div>380</div> <span>especialistas</span>
+								</div>
+							</div>
+						</section>
+						
+						<section class="col-xs-12 col-sm-6 categorias_destacadas">
+							<div class="row">
+								<div class="titulo_categoria_destacadas">
+									<i class="fa fa-paint-brush" aria-hidden="true"></i>
+									Pintor
+								</div>
 								<img src="img/pub2.jpg" />
 								<div class="txt_destacadas">
-									<div>Pintor</div>
-									<span>380 especialistas</span>
+									<div>380</div> <span>especialistas</span>
 								</div>
 							</div>
 						</section>
 						
 						<section class="col-xs-12 col-sm-6 categorias_destacadas">
 							<div class="row">
+								<div class="titulo_categoria_destacadas">
+									<i class="fa fa-tint" aria-hidden="true"></i>
+									Plomeria
+								</div>
 								<img src="img/pub3.jpg" />
 								<div class="txt_destacadas">
-									<div>Plomeria</div>
-									<span>380 especialistas</span>
+									<div>380</div> <span>especialistas</span>
 								</div>
 							</div>
 						</section>
 						
 						<section class="col-xs-12 col-sm-6 categorias_destacadas">
 							<div class="row">
+								<div class="titulo_categoria_destacadas">
+									<i class="fa fa-car" aria-hidden="true"></i>
+									Mecanico
+								</div>
 								<img src="img/pub4.jpg" />
 								<div class="txt_destacadas">
-									<div>Mecanico</div>
-									<span>380 especialistas</span>
+									<div>380</div> <span>especialistas</span>
 								</div>
 							</div>
 						</section>
 						
 						<section class="col-xs-12 col-sm-6 categorias_destacadas">
 							<div class="row">
+								<div class="titulo_categoria_destacadas">
+									<i class="fa fa-cloud" aria-hidden="true"></i>
+									Climatizacion
+								</div>
 								<img src="img/pub5.jpg" />
 								<div class="txt_destacadas">
-									<div>Climatizacion</div>
-									<span>380 especialistas</span>
+									<div>380</div> <span>especialistas</span>
 								</div>
 							</div>
 						</section>
 						
-						<section class="col-xs-12 col-sm-6 categorias_destacadas">
-							<div class="row">
-								<img src="img/pub6.jpg" />
-								<div class="txt_destacadas">
-									<div>Climatizacion</div>
-									<span>380 especialistas</span>
-								</div>
-							</div>
-						</section>
+						
 						</section>
 						
 						<section class="col-xs-12 col-sm-3 buscar-especialista">

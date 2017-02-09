@@ -61,7 +61,7 @@
 				<div class="flex_crear_publicacion">
 					<div class="btn_opcion">
 						<div class="checkbox_categorias">
-							<input type="checkbox" id="web" name="plomeria" value="web">
+							<input type="checkbox" id="web" name="web" value="web">
 							<label class="contenedor_categoria_crear" for="web"><i class="fa fa-code fa-2x" aria-hidden="true"></i><br/>Desarrollador Web</label>
 						</div>	
 					</div>
@@ -75,8 +75,11 @@
 			
 					<div class="btn_opcion">
 						<div class="checkbox_categorias">
-							<input type="checkbox" id="plomeria" name="plomeria" value="plomeria">
-							<label class="contenedor_categoria_crear" for="plomeria"><i class="fa fa-tint fa-2x" aria-hidden="true"></i><br/>Plomeria</label>
+							<input type="checkbox" id="albanil" name="albanil" value="albanil">
+							<label class="contenedor_categoria_crear" for="albanil">
+								<i class="fa fa-home fa-2x" aria-hidden="true"></i><br/>
+								Albanil
+							</label>
 						</div>	
 					</div>
 			
@@ -91,8 +94,8 @@
 				<div class="flex_crear_publicacion">
 					<div class="btn_opcion">
 						<div class="checkbox_categorias">
-							<input type="checkbox" id="Automovil" name="Automovil" value="automovil">
-							<label class="contenedor_categoria_crear" for="Automovil"><i class="fa fa-car fa-2x" aria-hidden="true"></i><br/>Automovil</label>
+							<input type="checkbox" id="jardinero" name="jardinero" value="jardinero">
+							<label class="contenedor_categoria_crear" for="jardinero"><i class="fa fa-leaf fa-2x" aria-hidden="true"></i><br/>Jardinero</label>
 						</div>	
 					</div>
 					
@@ -106,7 +109,7 @@
 					<div class="btn_opcion">
 						<div class="checkbox_categorias">
 							<input type="checkbox" id="serv_tv" name="serv_tv" value="serv_tv">
-							<label class="contenedor_categoria_crear" for="serv_tv"><i class="fa fa-television fa-2x" aria-hidden="true"></i><br/>Servicio tec. Tv</label>
+							<label class="contenedor_categoria_crear" for="serv_tv"><i class="fa fa-car fa-2x" aria-hidden="true"></i><br/>Carpintero</label>
 						</div>	
 					</div>
 			
@@ -157,15 +160,67 @@
 					Datos de la publicacion
 				</div>
 				
-				<label>Titulo Publicacion</label>
-				<input type="text" />
-			
-				<label>Habitaciones</label>
-				<input type="text" />
-			
-				<label>Mts aprox</label>
-				<input type="text" />
-			
+				<div class="margin_inputs">
+					<label>Titulo Publicacion</label>
+					<input type="text" />
+				</div>	
+				
+				<div class="input_web inputs_ocultos">
+					<label>Estudios minimos requeridos</label>
+					<select>
+						<option>Terciario en curso</option>
+						<option>Titulo completo</option>
+					</select>
+				</div>
+				
+				<div class="input_web inputs_ocultos">
+					<label>Necesario para</label>
+					<select>
+						<option>Front End</option>
+						<option>Back End</option>
+						<option>Ambos</option>
+					</select>
+				</div>
+				
+				<div class="input_web inputs_ocultos">
+					<label>Conocimientos requeridos</label>
+					<select>
+						<option>HTML</option>
+						<option>CSS</option>
+						<option>PHP</option>
+						<option>JQuery</option>
+						<option>Angular</option>
+					</select>
+				</div>
+				
+				<div class="input_grafico inputs_ocultos">
+					<label>Programas requeridos</label>
+					<select>
+						<option>Photoshop</option>
+					</select>
+				</div>
+				
+				<div class="input_habitaciones inputs_ocultos">
+					<label>Habitaciones</label>
+					<input type="text" />
+				</div>
+				
+				<div class="input_habitaciones inputs_ocultos">
+					<label>Mts aprox</label>
+					<input type="text" />
+				</div>
+				
+				<div class="input_habitaciones inputs_ocultos">
+					<label>Experiencia minima requerida</label>
+					<select>
+						<option>1 año</option>
+						<option>2 año</option>
+						<option>3 año</option>
+					</select>
+				</div>
+				
+				
+				
 				<label>Descripcion de la publicacion</label>
 				<textarea></textarea>
 				
@@ -208,7 +263,25 @@
 	</main>
 
 	<?php include 'footer.php'; ?>
+<script>
 
+ $("#btn_siguiente_crear_1").click(function() {  
+        if($("#web").is(':checked')) {  
+            $(".input_web").css("display","block");
+        }  
+		
+		if($("#grafico").is(':checked')) {  
+            $(".input_grafico").css("display","block");
+        } 
+		
+		if($("#plomeria").is(':checked') || $("#albanil").is(':checked') || $("#pintor").is(':checked') ) {  
+            $(".input_habitaciones").css("display","block");
+        } 
+		
+    });  
+  
+  
+</script>
 	<script src="vendors/jquery/jquery.min.js"></script>
 	<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/ajax.js"></script>

@@ -23,7 +23,7 @@
 		<div class="wrapper" style="padding-top:30px;">
 			<div class="container-fluid">
 				<div class="row">
-					<section class="col-xs-12 col-sm-8 info">
+					<section class="col-xs-12 col-sm-8 info listado-publicaciones">
 						<div class="row">
 							<div id="descripcionPublicacion" class="sombra_caja" style="overflow: hidden;">
 								<div style="border-top:1px solid #e6e6e6">
@@ -51,6 +51,41 @@
 							</div>
 						</div>
 					</section>
+					
+					<section class="col-xs-12 col-sm-4  buscar-especialista">
+							
+							<div class="row">
+								<div class="div_buscar_por">
+									<p class="buscar-por">Indice</p>
+								</div>
+								<div class="">
+									<a href="listado-prestadores.php"> 
+										
+										1. Como contratar a un especialista
+									</a>
+									<a href="">
+										
+										2. Crear publicación
+									</a>
+									<a href="">
+										
+										3. Crear publicación
+									</a>
+								</div>
+								<div class="">
+									<a href="">
+										
+										4. Crear publicación
+									</a>
+								</div>
+								
+								
+								
+							</div>
+							
+							
+							
+						</section>
 				</div>
 			</div>
 		</div>

@@ -93,7 +93,7 @@
 				PRESTADORES
 			</a>
 			
-			<a href="contacto.php" class="link_header">
+			<a href="ayuda.php" class="link_header">
 				
 				AYUDA
 			</a>

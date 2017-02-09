@@ -426,6 +426,7 @@ border: 1px solid #c9ced0;
 	max-width:365px; 
 	margin-right:32px;
 	margin-bottom:25px;
+	cursor:pointer;
 }
 
 
@@ -436,8 +437,14 @@ border: 1px solid #c9ced0;
 }
 
 .txt_destacadas{
-	padding:10px;
+	padding:5px 10px 5px 10px;
     display: inline-block;
+	width:100%;
+	text-align:right;
+}
+
+.txt_destacadas div{
+	font-size:18px;
 }
 
 .txt_destacadas_medio{
@@ -843,6 +850,7 @@ cursor: default;}
 #main.publicacion input,
 #main.publicacion textarea,
 .segundo_paso input,
+.segundo_paso select,
 .segundo_paso textarea ,
 .tercer_paso select,
 .tercer_paso input{
@@ -1081,6 +1089,7 @@ cursor: default;}
 	margin-top:15px;
 	}
 
+	
 .segundo_paso textarea{
 	height:100px;
 	border: 1px solid #ededed;
@@ -1425,15 +1434,47 @@ margin: 0 auto;
   .progressbar li.active + li:after {
       background-color: #55b776;
   }
-  .progressbar li.active  span{
+  
+	.progressbar li.active  span{
       color: #55b776;
-  }
+	}
 
-.consulta_pregunta div:first-child{
-	font-size:16px;
-	font-weight:bold;
-	margin-top:20px;
-	margin-bottom:10px;}
+	.consulta_pregunta div:first-child{
+		font-size:16px;
+		font-weight:bold;
+		margin-top:20px;
+		margin-bottom:10px;}
+	
+	.inputs_ocultos{
+		display:none;
+		margin-bottom:12px;
+	}
+	
+	.segundo_paso label{
+		font-weight:bold;}
+		
+	.margin_inputs{
+		margin-bottom:12px;}	
 /************************************
 	LAYOUT MOBILE
 *************************************/
+
+
+.titulo_categoria_destacadas{
+	position: absolute;
+	width: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(10%, rgba(0,0,0,0.58)), color-stop(35%, transparent));
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    background-size: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    z-index: 99999999;
+}
+
+.titulo_categoria_destacadas i{
+	margin-right:10px;
+}
