@@ -19,7 +19,7 @@ body,
 form {
   padding: 0;
   margin: 0;
-  height: 100%; }
+  }
 
 /***********************
 	HELPERS
@@ -477,7 +477,7 @@ border: 1px solid #c9ced0;
 
 .textos_presentacion{
 	margin-top:25px;
-	margin-bottom:25px;
+	margin-bottom:20px;
 }
 
 .textos_presentacion div{
