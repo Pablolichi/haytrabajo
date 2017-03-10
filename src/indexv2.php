@@ -63,7 +63,7 @@
 								<select class="select_buscador_home_2">
 									<option>Partido</option>
 								</select>
-								<a href="registro.php" class="btn switch">Registrarse</a>
+								<a href="registro.php" class="btn buscar_home">Registrarse</a>
 							</form>
 				
 		

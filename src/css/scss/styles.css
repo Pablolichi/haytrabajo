@@ -116,11 +116,15 @@ label {
   .btn:hover {
     background-color: #55a32a;
     color: #fff; }
+	
   .btn.switch {
-    background-color: #55a32a;
-    padding: 5px 30px; }
-    .btn.switch:hover {
-      background-color: #117a16; }
+    background-color: #f44336;
+    padding: 5px 30px;}
+	
+.buscar_home{background-color: #f44336;
+    padding: 15px 30px;
+    margin-top: -1px;}	
+    
   .btn.btn2 {
     background-color: #2b858d; }
     .btn.btn2:hover {
@@ -213,7 +217,7 @@ header {
   z-index: 999;
 min-height:110px;  
 overflow:hidden;
-  border-bottom: 1px dashed #ededed;}
+}
   
   header img.logo {
     max-height: 35px; 
@@ -225,10 +229,10 @@ overflow:hidden;
     vertical-align: middle; }
 	
   header .link_header{
-	color: #000;
-font-weight: 600;
-padding-top: 25px;
-padding-bottom: 20px;
+	color: #727272;
+font-weight: 400;
+padding-top: 30px;
+padding-bottom: 35px;
 text-transform: uppercase;
 font-size: 14px;
 letter-spacing: 1px;
@@ -236,9 +240,20 @@ display: inline-block;
 margin-left:20px;
 text-align: right;}
 
-
+.icon_user{
+	background-color: #f1f1f1;
+    border-radius: 50px;
+    text-align: center;
+    width: 35px;
+    float: right;
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 5px 0px 5px 0px;
+	cursor:pointer;
+	}
 	
-header a:hover{color:#006cb7 !important; }
+header a:hover{color:#727272 !important; }
+header .a_active{border-top:5px solid #f44336;} 
  
 header .dropdown {
     display: inline-block; }
@@ -257,12 +272,10 @@ header .dropdown .dropdown-menu a {
 }
 
 .barra_superior_header{
-	background-color:#3c4759;
+	background-color:#f7f7f7;
 	padding: 10px 0 0;
-	color: #DBDBE5;
-	font-size: 13px;
-	border-bottom: 4px solid #556479;
-	color:white;
+	color: #727272;
+	font-size: 13px;	
 	padding:10px;}
 	
 .barra_superior_header a{
@@ -272,6 +285,18 @@ header .dropdown .dropdown-menu a {
 	color:white !Important;
 	text-decoration:none;}	
 	
+.barra_superior_header i{
+	color:#8c8c8c;
+	}	
+	
+	.barra_superior_header .col-md-2 i
+	{margin-left:10px;}
+	
+	.barra_superior_header .col-md-10 i{
+	margin-right:10px;}
+	
+.barra_superior_header .col-md-10{padding-left:30px;}	
+.barra_superior_header .col-md-2{padding-right:30px;}		
 .img_usuario_barra_header{
 	width:24px; 
 	height:24px;
@@ -282,7 +307,7 @@ header .dropdown .dropdown-menu a {
 	border:none;}	
 	
 .menu_header{
-text-align:right;
+text-align:left;
 padding-right:0px;}	
 	
 .dropdown-menu_header{

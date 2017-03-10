@@ -3,10 +3,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
 	
 	<div class="col-sm-12 barra_superior_header">
-		<div class="wrapper">
+		<div>
 		<div class="row">
 		<div class="col-md-10">
-			Tiene alguna pregunta? Mande un mail a mail@
+			<i class="fa fa-envelope" aria-hidden="true"></i> Tiene alguna pregunta? Mande un mail mail a consultas@haytrabajo.com
 		</div>
 			<div class="col-md-2" style="text-align:right">
 			
@@ -33,10 +33,14 @@
 				</div>
 				<?php else : ?>
 				 
-				<a data-toggle="modal" data-target="#modal_login" class="">
+				<!--<a data-toggle="modal" data-target="#modal_login" class="">
 					<i class="fa fa-sign-in" aria-hidden="true"></i> Login
 				</a> | 
-				<i class="fa fa-user" aria-hidden="true"></i> Registrarse
+				<i class="fa fa-user" aria-hidden="true"></i> Registrarse-->
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-google-plus"></i>
+				<i class="fa fa-instagram"></i>
 				<?php endif; ?>
 				</div>
 				
@@ -47,10 +51,10 @@
 
 	
 	<div class="col-sm-12">
-	<div class="wrapper" >
+	<div>
 	
 		
-		<div class="col-md-3">
+		<div class="col-md-2">
 			<a href="index.php"><img class="logo" src="img/logo.png" alt="Hay trabajo logo"></a>
 			</div>
 		
@@ -59,9 +63,9 @@
 			<?php
 				if(!empty($_SESSION['user'])) :
 			?>
-			<div class="col-md-9 menu_header">
-			<a href="index.php" class="link_header"> 
-				<i class="fa fa-home" aria-hidden="true"></i>
+			<div class="col-md-10 menu_header">
+			<a href="index.php" class="link_header a_active"> 
+				
 				HOME
 			</a>
 			<a class="link_header" href="crear-publicacion.php">
@@ -84,8 +88,7 @@
 				
 			<?php else : ?>
 			<div class="col-md-9 menu_header">
-			<a href="index.php" class="link_header"> 
-				<i class="fa fa-home" aria-hidden="true"></i>
+			<a href="index.php" class="link_header a_active"> 
 				Home
 			</a>
 			
@@ -109,6 +112,7 @@
 			</a>
 			
 			
+			
 				<!--<a href="registro.php" class="btn_convertise_header" style="border:1px solid #aaaaaa; border-radius:2px;">Convertirse en prestador</a>
 				<a data-toggle="modal" data-target="#modal_login">Login</a>
 				<a  data-toggle="modal" data-target="#modal_registrarse">Registrarse</a>-->
@@ -117,6 +121,11 @@
 			<!--<a href="crear-publicacion.php" class="btn">Crear publicación</a>-->
 		</div>
 		
+		<div class="col-md-1">
+			<div data-toggle="modal" data-target="#modal_login" class="icon_user">
+				<i class="fa fa-user" aria-hidden="true"></i>
+			</div>	
+		</div>
 		
 	</div>
 	</div>
