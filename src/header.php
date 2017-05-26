@@ -13,25 +13,10 @@
 				
 				<?php
 				session_start();
-				if(!empty($_SESSION['user'])) :
-				?>
-				<div class="notificaciones_header" style="display:inline; font-size:15px; margin-right:10px;">
-				<i class="fa fa-bell" aria-hidden="true"></i>
-				</div>
 				
-				<div class="dropdown">
-				<button class="dropdown-toggle dropdown_header" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-					<img src="img/perfil.jpg" class="img_usuario_barra_header"/>
-					<span class="caret dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></span>
-				</button>
-		
-				<ul class="dropdown-menu dropdown-menu_header" aria-labelledby="dropdownMenu1">
-					<div style="padding-left:5px; padding-bottom:5px;   border-bottom: 1px solid #ccc;"><?php print $_SESSION['user']; ?></div>
-					<li><a href="#">Perfil</a></li>
-					<li><a href="#" id="logout">Cerrar sesion</a></li>
-				</ul>
-				</div>
-				<?php else : ?>
+				?>
+				
+				
 				 
 				<!--<a data-toggle="modal" data-target="#modal_login" class="">
 					<i class="fa fa-sign-in" aria-hidden="true"></i> Login
@@ -41,7 +26,7 @@
 				<i class="fa fa-twitter"></i>
 				<i class="fa fa-google-plus"></i>
 				<i class="fa fa-instagram"></i>
-				<?php endif; ?>
+				
 				</div>
 				
 			
@@ -63,7 +48,7 @@
 			<?php
 				if(!empty($_SESSION['user'])) :
 			?>
-			<div class="col-md-10 menu_header">
+			<div class="col-md-9 menu_header">
 			<a href="index.php" class="link_header a_active"> 
 				
 				HOME
@@ -83,7 +68,16 @@
 				CONTACTO
 			</a>
 			</div>	 
-			
+			<div class="col-md-1">
+				<div class="icon_user" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					<i class="fa fa-user" aria-hidden="true"></i>
+				</div>	
+				<ul class="dropdown-menu dropdown-menu_header" aria-labelledby="dropdownMenu1">
+					<div style="padding-left:5px; padding-bottom:5px;   border-bottom: 1px solid #ccc;"><?php print $_SESSION['user']; ?></div>
+					<li><a href="#">Perfil</a></li>
+					<li><a href="#" id="logout">Cerrar sesion</a></li>
+				</ul>
+			</div>
 				
 				
 			<?php else : ?>
@@ -110,15 +104,6 @@
 				
 				Crear publicacion
 			</a>
-			
-			
-			
-				<!--<a href="registro.php" class="btn_convertise_header" style="border:1px solid #aaaaaa; border-radius:2px;">Convertirse en prestador</a>
-				<a data-toggle="modal" data-target="#modal_login">Login</a>
-				<a  data-toggle="modal" data-target="#modal_registrarse">Registrarse</a>-->
-			<?php endif; ?>
-			<!--<a href="listado-prestadores.php">Buscar trabajador</a>-->
-			<!--<a href="crear-publicacion.php" class="btn">Crear publicación</a>-->
 		</div>
 		
 		<div class="col-md-1">
@@ -126,10 +111,13 @@
 				<i class="fa fa-user" aria-hidden="true"></i>
 			</div>	
 		</div>
+			<?php endif; ?>
+		
 		
 	</div>
 	</div>
 	<div class="col-sm-12 buscador_header">
+	
 		<div class="wrapper" style="padding-top:15px; ">
             <div class="col-sm-4">
               <div class="form-group">
@@ -166,6 +154,5 @@
           
           </div>
 	</div>
-	
 	
 </header>

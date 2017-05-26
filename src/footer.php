@@ -100,6 +100,7 @@
 	</div>
 	<script src="js/jquery.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
+<script src="js/slider_index.js"></script>
 <script>
 /*ESTO ES PARA EL CALENDARIO DE LOS INPUTS   */
 	document.write('<link href="css/scss/calendario.css" rel="stylesheet" type="text/css" />')

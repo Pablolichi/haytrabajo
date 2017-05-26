@@ -19,78 +19,33 @@
 	<?php include 'header.php'; ?>
 
 	<main id="main" role="main">
-		<!--<section id="banner">
-			<div class="wrapper">
-				<?php
-					//if(!empty($_SESSION['user'])) :
-				?>
-					<div>
-						<h1>Mira Publicaciones y manda presupuestos</h1>
-						<p>Buscá entre todas las publicaciones las que encajen con tu servicio y enviá presupuestos a los clientes para que te contraten.</p>
-						<a href="listado-publicaciones.php" class="btn switch">Ver publicaciones</a>
-					</div>
-				<?php// else : ?>
-					<div>
-						<h1>Encontra el especialista que buscas</h1>
-						<div class="col-sm-12 buscador_banner">
-							<form>
-								<select class="select_especialista">
-									<option>Que especialista necesita?</option>
-								</select>
-								<select class="select_provincia_partido">
-									<option>Provincia</option>
-								</select>
-								<select class="select_provincia_partido">
-									<option>Partido</option>
-								</select>
-								<a href="registro.php" class="btn switch">Registrarse</a>
-							</form>
-						</div>
-					</div>
-				<?php //endif; ?>
-			</div>
-		</section>-->
-		<div  style="margin-top:30px;">
-			<div class="wrapper" style="height:340px; overflow:hidden;background-color: #fff;box-shadow: 0px 2px 3px -1px rgba(151, 171, 187, 0.7); ">
-			
-				<section class="col-xs-12 col-sm-4 buscador_home">
-				<div>Busca al especialista que necesitas</div>
-					<form>
-								<select >
-									<option>Que especialista necesita?</option>
-								</select>
-								<select >
-									<option>Provincia</option>
-								</select>
-								<select >
-									<option>Partido</option>
-								</select>
-								<a href="registro.php" class="btn switch">Registrarse</a>
-							</form>
-				</section>
 		
-				<section class="col-xs-12 col-sm-8 banner_">
-					<span class="texto_banner">
-                <span class="line">
-                    Miles de publicaciones.
-                </span>
-                <br>
-                <span class="line">
-                    Encontra tu especialista
-                </span>
-                <br>
-                <span class="line">
-                   o tu cliente
-                </span>
-                <br>
-            </span>
-				</section>
+		<div   class="col-xs-12 col-sm-12 coverImage">
+		
+			<div class="wrapper" style="overflow:hidden;">
+				<div class="titulo_home">Busca al especialista que necesitas</div>
+					<form class="form_buscador_home">
+								<select class="select_buscador_home_1" >
+									<option>Que especialista necesita?</option>
+								</select>
+								<select class="select_buscador_home_2">
+									<option>Provincia</option>
+								</select>
+								<select class="select_buscador_home_2">
+									<option>Partido</option>
+								</select>
+								<a href="registro.php" class="btn buscar_home">Registrarse</a>
+							</form>
+				
 		
 				
-	</div>
+			</div>
 </div>
 		
-		<div  style="margin-top:30px;">
+		
+
+		<div class="wrapper" >
+		<div class="col-xs-12 col-sm-12 msj_index" style="margin-top:-50px;">
 			<div class="wrapper" style="overflow:hidden;background-color: #fff;box-shadow: 0px 2px 3px -1px rgba(151, 171, 187, 0.7); ">
 				<section class="col-xs-12 col-sm-4 textos_presentacion">
 					<div class="col-xs-12 col-sm-2">
@@ -123,8 +78,6 @@
 				</section>
 	</div>
 </div>
-
-		<div class="wrapper" style="padding-top:30px;">
 			<div class="container-fluid">
 				<?php
 					if(!empty($_SESSION['user'])) :
@@ -354,7 +307,31 @@
 			</div>
 		</div>
 	</main>
+<style>
+.select_buscador_home_1{
+    padding: 15px 120px 15px 6px;
+    text-align: left;
+    margin-right: 5px;}
+	
+.select_buscador_home_2{
+    padding: 15px 70px 15px 6px;
+    text-align: left;
+    margin-right: 5px;
+}	
 
+.titulo_home{
+	font-size:50px;
+	color:white;
+	font-weight:100;
+    margin-right: 5px;
+	margin-bottom:20px;}
+	
+.form_buscador_home{
+    padding: 10px 10px;
+    background: rgba(0,0,0,.3);
+    width: 780px;
+    margin: 0 auto;}	
+</style>
 	<?php include 'footer.php'; ?>
 
 	<script src="vendors/jquery/jquery.min.js"></script>
